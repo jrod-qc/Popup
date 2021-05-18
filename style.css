@@ -1,279 +1,288 @@
-   /* This is the Rebate Modal Section */
-   
-   .rebate-modal {
-       display: none;
-       justify-content: center;
-       align-items: center;
-       position: fixed;
-       width: 100%;
-       height: 100vh;
-       background-color: rgba(0, 0, 0, 0.899);
-       top: 0;
-       transition: .5s;
-       z-index: 999;
-       -webkit-transition: .5s;
-       -moz-transition: .5s;
-       -ms-transition: .5s;
-       -o-transition: .5s;
-   }
-   
-   .rebate-modal-exit-btn {
-       display: flex;
-       justify-content: flex-end;
-       align-content: center;
-       flex-wrap: wrap;
-       width: 90%;
-       color: black;
-       margin: 0 auto;
-       height: 50px;
-   }
-   
-   .rebate-modal-exit-btn>p {
-       font-size: 2rem;
-       transition: .5s;
-       -webkit-transition: .5s;
-       -moz-transition: .5s;
-       -ms-transition: .5s;
-       -o-transition: .5s;
-       cursor: pointer;
-   }
-   
-   .rebate-modal-exit-btn>p:hover {
-       color: #ea252c;
-       transform: scale(1.2);
-       -webkit-transform: scale(1.2);
-       -moz-transform: scale(1.2);
-       -ms-transform: scale(1.2);
-       -o-transform: scale(1.2);
-   }
-   
-   .rebate-modal-box {
-       width: 80%;
-       height: 100vh;
-       display: flex;
-       flex-wrap: wrap;
-       justify-content: center;
-       align-items: center;
-       overflow: auto;
-       padding: 20px;
-       margin: 0 auto;
-   }
-   
-   .rebate-modal-box-content {
-       display: flex;
-       flex-wrap: wrap;
-       background-color: #fff;
-       width: auto;
-       padding: 0;
-       margin: 0;
-       width: 70%;
-       height: 50vh;
-   }
-   
-   .rebate-modal-left-side {
-       width: 50%;
-       height: auto;
-       background: url("https://quietcool.jmartiniaq.com/wp-content/uploads/2021/05/SCOTT-MONEY-new.webp");
-       background-repeat: no-repeat;
-       background-size: cover;
-       background-position: center;
-   }
-   
-   .rebate-modal-right-side {
-       display: flex;
-       width: 50%;
-       height: 100%;
-       padding: 20px 0;
-       flex-wrap: wrap;
-       justify-content: center;
-       align-content: center;
-   }
-   
-   .rebate-modal-right-side>img {
-       width: 100%;
-       padding: 20px 0;
-   }
-   
-   .rebate-modal-right-side>h1 {
-       font-size: 2.5rem;
-       margin: 0;
-       padding: 0 10%;
-       text-align: center;
-       line-height: 1.2;
-   }
-   
-   .rebate-btn {
-       width: 100%;
-       text-align: center;
-       margin: 0 auto;
-       padding: 5% 0 5% 0;
-   }
-   
-   .rebate-call-now {
-       background-color: #ea252c;
-       padding: 4% 10%;
-       color: white;
-       border-radius: 5px;
-       -webkit-border-radius: 5px;
-       -moz-border-radius: 5px;
-       -ms-border-radius: 5px;
-       -o-border-radius: 5px;
-       text-decoration: none;
-       font-size: 1.5rem;
-       transition: .5s;
-       -webkit-transition: .5s;
-       -moz-transition: .5s;
-       -ms-transition: .5s;
-       -o-transition: .5s;
-   }
-   
-   .rebate-call-now:hover {
-       background-color: #b7161c;
-       color: #fff;
-   }
-   
-   .rebate-content-text {
-       display: flex;
-       flex-wrap: wrap;
-       justify-content: center;
-       overflow: auto;
-   }
-   
-   .rebate-cost {
-       text-align: center;
-       font-size: 6em;
-       margin: 0;
-   }
-   
-   .rebate-text {
-       text-align: center;
-       font-size: 1.6em;
-       margin: 0;
-   }
-   
-   .rebate-text-2 {
-       text-align: center;
-       font-size: 1.2em;
-       margin: 0;
-   }
-   
-   .disclamer {
-       width: 60%;
-       font-size: .7em;
-       margin: 0;
-       padding: 0;
-       text-align: center;
-   }
-   /* This is the end of rebate */
-   
-   @media only screen and (max-width:1024px) {
-       .nav-list {
-           display: flex;
-           flex-wrap: wrap;
-           background-color: #fff;
-           width: 200px;
-           height: 100vh;
-           position: fixed;
-           top: 0;
-           right: 0;
-           padding: 0;
-           margin: 0;
-           overflow: auto;
-           box-shadow: #0000003d 0px 3px 5px;
-           transform: scaleX(0);
-           -webkit-transform: scaleX(0);
-           -moz-transform: scaleX(0);
-           -ms-transform: scaleX(0);
-           -o-transform: scaleX(0);
-       }
-       .nav-list>li {
-           display: flex;
-           flex-wrap: wrap;
-           justify-content: center;
-           align-items: center;
-           width: 80%;
-           height: 5%;
-           padding: 0;
-       }
-       .nav-exit-btn {
-           display: block;
-       }
-       .mobile-nav-btn {
-           display: flex;
-           justify-content: center;
-           align-items: center;
-       }
-       .mobile-nav-btn>a {
-           color: grey;
-           text-decoration: none;
-           font-size: 1.2em;
-           font-weight: 600;
-       }
-   }
-   
-   @media only screen and (max-width:805px) {
-       .rebate-modal-box {
-           width: 100%;
-       }
-       .rebate-modal-box-content {
-           width: 90%;
-           height: 95%;
-       }
-       .rebate-modal-left-side {
-           display: none;
-       }
-       .rebate-modal-right-side {
-           width: 100%;
-           background-blend-mode: multiply;
-           background: #0000009e url("https://quietcool.jmartiniaq.com/wp-content/uploads/2021/05/SCOTT-MONEY-new.webp");
-           background-position: center;
-           background-size: cover;
-       }
-       .rebate-modal-right-side>h1 {
-           color: #fff;
-           font-size: 2rem;
-           padding: 0 14%;
-       }
-       .rebate-modal-exit-btn {
-           color: #fff;
-       }
-       .rebate-cost {
-           color: #fff;
-       }
-       .rebate-text {
-           color: #fff;
-       }
-       .rebate-text-2 {
-           color: #fff;
-       }
-       .disclamer {
-           width: 85%;
-           color: #fff;
-       }
-   }
-   
-   @media only screen and (max-width:768px) {
-       .rebate-modal-box-content {
-           width: 90%;
-           height: 50%;
-       }
-   }
-   
-   @media only screen and (max-width:414px) {
-       .rebate-modal-box-content {
-           width: 90%;
-           height: 90%;
-       }
-   }
-   
-   @media only screen and (max-width:320px) {
-       .rebate-modal-box {
-           width: 95%;
-       }
-       .rebate-modal-right-side>h1 {
-           font-size: 1.8em;
-       }
-       .rebate-call-now {
-           font-size: 1.2em;
-       }
-   }
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+/* This is the Rebate Modal Section */
+
+.rebate-modal {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.899);
+    top: 0;
+    transition: .5s;
+    z-index: 999;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.rebate-modal-exit-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    color: black;
+    margin: 0 auto;
+    height: 50px;
+}
+
+.rebate-modal-exit-btn>p {
+    font-size: 2rem;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    cursor: pointer;
+}
+
+.rebate-modal-exit-btn>p:hover {
+    color: #ea252c;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.rebate-modal-box {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.rebate-modal-box-content {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    width: 70%;
+    height: 50vh;
+}
+
+.rebate-modal-left-side {
+    width: 50%;
+    height: 100%;
+    background: url("https://quietcool.jmartiniaq.com/wp-content/uploads/2021/05/SCOTT-MONEY-new.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.rebate-modal-right-side {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    padding: 20px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.rebate-modal-right-side>img {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.rebate-modal-right-side>h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 0 10%;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.rebate-btn {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5% 0 5% 0;
+}
+
+.rebate-call-now {
+    background-color: #ea252c;
+    padding: 4% 10%;
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.rebate-call-now:hover {
+    background-color: #b7161c;
+    color: #fff;
+}
+
+.rebate-content-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: auto;
+}
+
+.rebate-cost {
+    text-align: center;
+    font-size: 6em;
+    margin: 0;
+}
+
+.rebate-text {
+    text-align: center;
+    font-size: 1.6em;
+    margin: 0;
+}
+
+.rebate-text-2 {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.disclamer {
+    width: 60%;
+    font-size: .7em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+/* This is the end of rebate */
+
+@media only screen and (max-width:1024px) {
+    .nav-list {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #fff;
+        width: 200px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        padding: 0;
+        margin: 0;
+        overflow: auto;
+        box-shadow: #0000003d 0px 3px 5px;
+        transform: scaleX(0);
+        -webkit-transform: scaleX(0);
+        -moz-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+        -o-transform: scaleX(0);
+    }
+    .nav-list>li {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 5%;
+        padding: 0;
+    }
+    .nav-exit-btn {
+        display: block;
+    }
+    .mobile-nav-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobile-nav-btn>a {
+        color: grey;
+        text-decoration: none;
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width:805px) {
+    .rebate-modal-box {
+        width: 100%;
+    }
+    .rebate-modal-box-content {
+        width: 90%;
+        height: 95%;
+    }
+    .rebate-modal-left-side {
+        display: none;
+    }
+    .rebate-modal-right-side {
+        width: 100%;
+        background-blend-mode: multiply;
+        background: #0000009e url("https://quietcool.jmartiniaq.com/wp-content/uploads/2021/05/SCOTT-MONEY-new.webp");
+        background-position: center;
+        background-size: cover;
+    }
+    .rebate-modal-right-side>h1 {
+        color: #fff;
+        font-size: 2rem;
+        padding: 0 14%;
+    }
+    .rebate-modal-exit-btn {
+        color: #fff;
+    }
+    .rebate-cost {
+        color: #fff;
+    }
+    .rebate-text {
+        color: #fff;
+    }
+    .rebate-text-2 {
+        color: #fff;
+    }
+    .disclamer {
+        width: 85%;
+        color: #fff;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .rebate-modal-box-content {
+        width: 90%;
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width:414px) {
+    .rebate-modal-box-content {
+        width: 90%;
+        height: 90%;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .rebate-modal-box {
+        width: 95%;
+    }
+    .rebate-modal-right-side>h1 {
+        font-size: 1.8em;
+    }
+    .rebate-call-now {
+        font-size: 1.2em;
+    }
+}
